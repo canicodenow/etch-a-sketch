@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3e7f9
+}
+
+html, body {
+    height: 100%;
+}
+
+nav.titlebar {
+    display: flex;
+}
+
+nav.leftmenu {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+  a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-size: 18px;
+    width: 90%;
+    padding: 7px;
+    color: #2575ee;
+}
+
+button:hover {
+    background-color: #a5acb5;
+}
+
+.container {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 10px solid red;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.column {
+    flex-basis: 100%;
+    border: 1px solid black;
+}
+
+.titlebar > div {
+    flex: 1;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    color: #4d6ea0;
+    background-color: #d2d1d1;
+}
+
+.titlebar > .github {
+    background-color: #c8f034;
+    border: 2px solid gray;
+}
+
+.titlebar > .title {
+    flex: 4;
+}
+
+.leftmenu > div {
+    font-size: 18px;
+    padding: 10px 8px;
+    text-align: center;
+    background-color: #d2d1d1;
+}

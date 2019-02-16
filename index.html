@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Etch-a-Sketch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body onload="createGrid(16)">
+    <nav class="titlebar">
+        <div class="title">Matt's Etch-a-sketch</div>
+        <div class="github"><a href="https://github.com/canicodenow">My Github</a></div>
+    </nav>
+    <nav class="leftmenu">
+        <div class="resetbutton"><button type="reset" onclick="changeGrid()">Change number of rows</button></div>
+        <div class="randomcolour"><button type= "randomise" onclick="randomColours()">Randomise colours</button></div>
+        <div class="randomcolour"><button type= "blackandwhite" onclick="highlightGrid()">Black and white</button></div>
+    </nav>
+    <div class="container">
+    </div>
+</body>
+
+<script src="etch.js"></script>
