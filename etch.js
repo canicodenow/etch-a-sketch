@@ -66,3 +66,11 @@ function getRandomRgb() {
     var b = num & 255;
     return 'rgb(' + r + ', ' + g + ', ' + b + ')';
 }
+
+function resetGrid() {
+    let children = document.querySelectorAll(".row");
+    children.forEach(child => {
+        container.removeChild(child);
+    })
+    createGrid(16);
+}
